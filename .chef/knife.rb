@@ -7,7 +7,7 @@ node_name                "jizzoe"
 client_key               "#{current_dir}/jizzoe.pem"
 validation_client_name   "swing-tech-validator"
 validation_key           "#{current_dir}/swing-tech-validator.pem"
-chef_server_url          "https://ip-172-31-32-57.ec2.internal/organizations/swing-tech"
+chef_server_url          "https://ec2-54-173-160-1.compute-1.amazonaws.com/organizations/swing-tech"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
