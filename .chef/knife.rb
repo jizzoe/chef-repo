@@ -3,8 +3,8 @@
 current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
-node_name                "admin"
-client_key               "#{current_dir}/admin.pem"
+node_name                "jizzoe"
+client_key               "#{current_dir}/jizzoe.pem"
 validation_client_name   "swing-tech-validator"
 validation_key           "#{current_dir}/swing-tech-validator.pem"
 chef_server_url          "https://ip-172-31-32-57.ec2.internal/organizations/swing-tech"
